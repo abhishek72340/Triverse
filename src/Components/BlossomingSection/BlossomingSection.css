@@ -1,0 +1,137 @@
+.blossoming-heading {
+  text-align: center;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin-top: 8%;
+}
+.blossoming-statement-text {
+  text-align: center;
+  margin-top: 2%;
+}
+.blossoming-btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 3%;
+}
+.blossoming-btn-one {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.blossoming-btn-two {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.blossoming-btn-one button:nth-child(1) {
+  background-color: rgb(106 196 207);
+  border: rgb(106 196 207);
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 12px;
+  width: 100%;
+}
+.blossoming-btn-one button:nth-child(2) {
+  background-color: rgb(234 86 112);
+  border: rgb(106 196 207);
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 12px;
+  width: 100%;
+}
+.blossoming-btn-two button:nth-child(1) {
+  background-color: rgb(255 204 1);
+  border: rgb(106 196 207);
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 12px;
+  width: 100%;
+}
+.blossoming-btn-two button:nth-child(2) {
+  background-color: rgb(143 193 94);
+  border: rgb(106 196 207);
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 12px;
+  width: 100%;
+}
+.banner-text-container {
+  position: absolute;
+  text-align: center;
+  z-index: 1;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  gap: 1.5rem;
+  left: 30%;
+  margin-top: 8%;
+}
+.banner-inner-text-first {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+.banner-inner-text-second {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.banner-container {
+  margin-top: 8%;
+  display: flex;
+  justify-content: center;
+}
+.banner {
+  width: 95%;
+  height: 500px;
+  border-radius: 10px 10px 0 0;
+  filter: brightness(0.8);
+}
+
+@media screen and (max-width: 480px) {
+    .blossoming-heading {
+      font-size: 1.2rem;
+    }
+  
+    .blossoming-btn-container {
+      flex-direction: column;
+    }
+  
+    .banner {
+      height: 500px;
+    }
+
+ 
+  }
+  
+
+  @media screen and (max-width: 768px) {
+    .banner-text-container {
+      left: 20%;
+    }
+  
+    .banner {
+      height: 450px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .blossoming-heading {
+      font-size: 1.2rem;
+    }
+  
+    .blossoming-btn-container {
+      flex-direction: column;
+    }
+  
+    .banner {
+      height: 200px;
+    }
+  }
