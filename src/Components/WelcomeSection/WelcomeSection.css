@@ -1,0 +1,122 @@
+.welcome-heading {
+  margin-top: 14%;
+  text-align: center;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  z-index: 1;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.welcome-bubble {
+  border-radius: 77% 23% 46% 56% / 72% 20% 79% 29%;
+  height: 90px;
+  width: 80px;
+  background-color: rgb(239 91 113);
+  margin: auto;
+  margin-top: -4.2rem;
+}
+
+.text-aside-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10%;
+  gap: 3rem;
+}
+.text {
+  margin-left: 20%;
+}
+
+.aside-container {
+  width: 45%;
+  height: 55vh;
+  border-radius: 180px 0 0 180px;
+  background-color: rgb(239 91 113);
+  position: absolute;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  line-height: 1.5;
+  font-size: 1.2rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+.unicef-text {
+  font-size: 11px;
+}
+.top-line {
+  width: 14%;
+  background-color: #fff;
+  height: 3px;
+  margin: 10px;
+}
+.bottom-line {
+  width: 14%;
+  background-color: #fff;
+  height: 3px;
+  margin: 10px;
+}
+.read-more-btn {
+  background-color: rgb(106 196 207);
+  color: #000;
+  border: rgb(106 196 207);
+  border-radius: 25px;
+  width: 120px;
+  padding: 10px;
+  cursor: pointer;
+  margin-left: 20%;
+  margin-top: 2%;
+}
+.read-more-btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+  .welcome-heading {
+    font-size: 1.2rem;
+  }
+  .welcome-bubble {
+    margin-top: -2rem;
+  }
+  .text {
+    font-size: 1rem;
+  }
+  .aside-container {
+    font-size: 1rem;
+  }
+  .unicef-text {
+    font-size: 10px;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 769px) {
+  .welcome-bubble {
+    margin-top: -3rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .text-aside-container {
+    flex-direction: column;
+    gap: 0;
+  }
+  .text {
+    margin-left: 0;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .aside-container {
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+    position: static;
+    margin-top: 20px;
+  }
+  .read-more-btn {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+}
