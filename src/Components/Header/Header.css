@@ -1,11 +1,17 @@
 .navbar {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  margin: 1.5rem;
+  margin: 1rem;
 }
-.navbar img {
+.logo1 {
   width: 15%;
+}
+.thread1{
+  position: absolute;
+  right:0;
+  width: 10%;
+  margin-top: -1.5rem;
 }
 .navbar-nav {
   display: flex;

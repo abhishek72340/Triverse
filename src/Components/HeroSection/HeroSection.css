@@ -1,0 +1,37 @@
+.hero-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-left: 15%;
+  text-align: center;
+  margin-top: 5rem;
+}
+.child-img {
+  width: 40%;
+  z-index: 1;
+}
+.butterfly-img {
+  width: 15%;
+}
+.thread-container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  left: 0;
+  margin-top: -15.9%;
+  z-index: 1;
+  width: 6%;
+}
+.thread-four {
+  position: absolute;
+  z-index: 1;
+  width: 20%;
+  right: 0;
+  margin-top: 1%;
+}
+.wave {
+  width: 100%;
+  position: absolute;
+  margin-top:-4.5%;
+}

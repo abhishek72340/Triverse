@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <>
       <nav className="navbar">
-        <img src="./images/logo1.png" alt="logo" />
+        <img src="./images/logo1.png" alt="logo" className="logo1" />
         <ul className="navbar-nav">
           <li>
             <Link to="/">discover welmont</Link>
@@ -30,6 +30,7 @@ const Header = () => {
         </div>
         <HaburgerItems />
       </nav>
+      <img src="/images/thread1.png" alt="thread" className="thread1" />
     </>
   );
 };
