@@ -1,0 +1,132 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1.5rem;
+}
+.navbar img {
+  width: 15%;
+}
+.navbar-nav {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+.navbar-nav a {
+  text-decoration: none;
+  color: #000000b2;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 10px;
+  font-weight: 600;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.navbar-buttons {
+  display: flex;
+  gap: 10px;
+}
+.navbar-buttons > button {
+  border-radius: 15px;
+  width: 100px;
+  font-size: 10px;
+  padding: 7px;
+  cursor: pointer;
+}
+.navbar-buttons > button:nth-child(1) {
+  background-color: rgb(106 196 207);
+  color: #fff;
+  border: rgb(106 196 207);
+}
+.navbar-buttons > button:nth-child(2) {
+  background-color: rgb(150 192 84);
+  color: #fff;
+  border: rgb(150 192 84);
+}
+.navbar-buttons > button:nth-child(3) {
+  background-color: rgb(239 91 113);
+  color: #fff;
+  border: rgb(239 91 113);
+}
+.hamburger-navbar-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30%;
+  gap: 50px;
+  list-style: none;
+}
+
+.hamburger-navbar-nav a {
+  text-decoration: none;
+  color: #000000b2;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.hamburger-logo {
+  width: 50%;
+  padding: 10px;
+}
+.hamburger-navbar-buttons {
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+}
+.hamburger-navbar-buttons > button {
+  border-radius: 15px;
+  width: 100px;
+  font-size: 10px;
+  padding: 7px;
+  cursor: pointer;
+}
+.hamburger-navbar-buttons > button:nth-child(1) {
+  background-color: rgb(106 196 207);
+  color: #fff;
+  border: rgb(106 196 207);
+}
+.hamburger-navbar-buttons > button:nth-child(2) {
+  background-color: rgb(150 192 84);
+  color: #fff;
+  border: rgb(150 192 84);
+}
+.hamburger-navbar-buttons > button:nth-child(3) {
+  background-color: rgb(239 91 113);
+  color: #fff;
+  border: rgb(239 91 113);
+}
+#menu-icon {
+  display: none;
+  color: black;
+}
+
+@media screen and (max-width: 600px) {
+  #menu-icon {
+    display: block;
+  }
+  .navbar-nav {
+    display: none;
+  }
+  .navbar-buttons {
+    display: none;
+  }
+  .navbar img {
+    width: 150px;
+  }
+  .navbar-buttons {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  .navbar-nav {
+    display: none;
+  }
+  #menu-icon {
+    display: block;
+  }
+  .hamburger-navbar-buttons {
+    display: none;
+  }
+}
