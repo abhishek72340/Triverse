@@ -49,6 +49,11 @@
     width: 50px;
     height: 60px;
   }
+  .calculate-name-container {
+    flex-direction: row;
+    gap: 8px;
+  
+  }
 }
 
 @media screen and (min-width:481px) and (max-width: 768px) {
@@ -64,10 +69,8 @@
 
   .calculate-name-container {
     flex-direction: column;
-    gap: 10px;
-    
-
-
+    gap: 1rem;
+  
   }
   .calculate-bubble  {
     margin-top: -7%;

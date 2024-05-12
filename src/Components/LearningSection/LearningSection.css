@@ -194,6 +194,12 @@
     width: 50px;
     height: 60px;
   }
+  .learning-img-separation {
+    margin-left:5%;
+  }
+  .learning-img-first-container p{
+    display: none;
+  }
 }
 @media screen and (min-width: 481px) and (max-width: 769px) {
   .image-circle {
@@ -207,6 +213,7 @@
     width: 60px;
     height: 70px;
   }
+
 }
 @media screen and (min-width: 760px) and (max-width: 1024px) {
   .image-circle {

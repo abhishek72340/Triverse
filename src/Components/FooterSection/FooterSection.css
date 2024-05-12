@@ -23,7 +23,7 @@
 .footer-text {
   z-index: 1;
   display: flex;
-  justify-content: space-center;
+  /* justify-content: space-center; */
   font-size: 11px;
   line-height: 1.7;
   font-family: sans-serif;
@@ -170,44 +170,43 @@
   justify-content: center;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 769px) {
   .logo-two {
-    width: 20%;
-    left: 3%;
+    width: 18%;
+    left: 45%;
   }
 
   .footer-text {
     font-size: 10px;
     margin-top: 80%;
-    flex-direction: row; /* Changed from column */
-    align-items: center; /* Added */
-    left: 3%;
+    left: 20%;
   }
 
   .footer-input {
     width: 70%;
     margin-top: 50%;
-    left: 15%;
+    left: 12%;
   }
 
   .footer-btn button {
-    width: 12%;
+    width: 13%;
     margin-top: 105%;
     left: 78%;
+    font-size: 12px;
   }
 
   .footer-circle-container {
     gap: 8rem;
-    margin-top: 70%;
+    margin-top: 58%;
   }
 
   .contact {
-    font-size: 0.6rem;
-    margin-top: 74%;
+    font-size: 0.8rem;
+    margin-top: 70%;
   }
 
   .footer-thread-six {
-    margin-top: 40%;
+    margin-top: 44%;
   }
 
   .footer-thread-seventh {
@@ -215,73 +214,70 @@
   }
 
   .footer-blue-bubble {
-    margin-top: 22.5%;
+    margin-top: 19%;
   }
 
   .footer-green-bubble {
     right: 13%;
-    margin-top: 25%;
+    margin-top: 21%;
   }
 
   .footer-red-bubble {
-    left: 13%;
-    margin-top: 15%;
+    left: 40%;
+    margin-top: 11%;
   }
 }
-
-@media only screen and (max-width: 480px) {
+@media screen and (max-width:480px){
+  .footer-circle-container {
+    display: none;
+  }
+}
+@media only screen and (max-width: 600px) {
   .logo-two {
-    width: 30%;
-    left: 0;
+    width: 15%;
+    left: 47%;
   }
 
   .footer-text {
-    font-size: 8px;
+    display: none;
+    font-size: 7px;
     margin-top: 85%;
     left: 0;
   }
 
   .footer-input {
     width: 80%;
-    margin-top: 60%;
+    margin-top: 35%;
     left: 10%;
   }
 
   .footer-btn button {
     width: 15%;
-    margin-top: 110%;
-    left: 72%;
+    padding: 9px;
+    margin-top: 92%;
+    left: 45%;
+    display: none;
+
   }
 
   .footer-circle-container {
     gap: 6rem;
-    margin-top: 85%;
+    margin-top: 45%;
+    /* display: none; */
   }
 
   .contact {
-    font-size: 0.5rem;
-    margin-top: 85%;
+    font-size: 0.8rem;
+    margin-top: 60%;
+    margin-left: 10%;
   }
 
   .footer-thread-six {
-    margin-top: 45%;
+    margin-top: 44%;
   }
 
   .footer-thread-seventh {
-    margin-top: 70%;
-  }
-
-  .footer-blue-bubble {
-    margin-top: 30.5%;
-  }
-
-  .footer-green-bubble {
-    right: 15%;
-    margin-top: 35%;
-  }
-
-  .footer-red-bubble {
-    left: 15%;
-    margin-top: 20%;
+    margin-top: 65%;
   }
 }
+
