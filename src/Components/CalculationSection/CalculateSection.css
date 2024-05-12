@@ -64,7 +64,10 @@
 
   .calculate-name-container {
     flex-direction: column;
-    gap: 2rem;
+    gap: 10px;
+    
+
+
   }
   .calculate-bubble  {
     margin-top: -7%;
