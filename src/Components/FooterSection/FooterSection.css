@@ -85,7 +85,8 @@
   position: absolute;
   margin-top: 60%;
   z-index: 1;
-  margin-left: 25%;
+  left: 50%; 
+  transform: translateX(-50%);
 }
 .footer-circle {
   width: 75px;

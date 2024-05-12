@@ -35,7 +35,7 @@
   border-radius: 15px;
   width: 100px;
   font-size: 10px;
-  padding: 7px;
+  padding: 10px;
   cursor: pointer;
 }
 .navbar-buttons > button:nth-child(1) {
