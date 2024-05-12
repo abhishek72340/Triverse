@@ -9,8 +9,8 @@ const ProgramSection = () => {
         <img src="/images/program.png" alt="program" className="program-img" />
         <img src="/images/thread5.png" alt="thread" className="thread-five" />
       </div>
-      {/* *****************learning************************** */}
 
+      {/* *****************play************************** */}
       <div className="play-container">
         <div className="play">
           <p className="play-heading">

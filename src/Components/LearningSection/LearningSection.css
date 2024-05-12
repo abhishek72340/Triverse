@@ -1,0 +1,143 @@
+.learning-heading {
+  text-align: center;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  margin-top: 10%;
+}
+.learning-bubble {
+  border-radius: 77% 23% 46% 56% / 72% 20% 79% 29%;
+  height: 90px;
+  width: 80px;
+  background-color: rgb(143 193 94);
+  margin: auto;
+  margin-top: -5rem;
+}
+.learning-img-separation {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+.learning-img-first-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.learning-first-img-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.learning-first-img {
+  width: 30%;
+  height: 80%;
+  border-radius: 20px;
+}
+.learning-second-img {
+  width: 30%;
+  height: 80%;
+  border-radius: 20px;
+}
+.learning-second-img-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: -7%;
+}
+.learning-third-img {
+  width: 16%;
+  height: 75%;
+  border-radius: 20px;
+}
+.learning-fourth-img {
+  width: 45%;
+  height: 75%;
+  border-radius: 20px;
+}
+.learning-third-img-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: -7%;
+}
+.learning-fifth-img {
+  width: 30%;
+  height: 80%;
+  border-radius: 20px;
+}
+.learning-sixth-img {
+  width: 30%;
+  height: 80%;
+  border-radius: 20px;
+}
+.learning-fourth-img-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.learning-fifth-img-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.learning-img-second-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  position: relative;
+}
+.learning-seventh-img {
+  width: 37%;
+  border-radius: 20px;
+}
+.learning-eighth-img {
+  width: 35.5%;
+  border-radius: 20px;
+}
+.learning-ninth-img {
+  width: 38%;
+  border-radius: 20px;
+}
+.learning-tenth-img {
+  width: 36%;
+  border-radius: 20px;
+  margin-top: 1%;
+}
+.image-circle {
+  width: 35%;
+  height: 35%;
+  border-radius: 50%;
+  background-color: rgb(234 84 111);
+  position: absolute;
+  top: 32%;
+  left: 22%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 0.7rem;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 8px;
+  }
+  .image-circle {
+    font-size: 3px;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 769px) {
+  .image-circle {
+    font-size: 5px;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 1024px) {
+  .image-circle {
+    font-size: 8px;
+  }
+}
