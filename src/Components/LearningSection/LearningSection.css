@@ -39,7 +39,9 @@
   color: white;
   font-size: 0.7rem;
   margin-top: 10%;
-  left: 3.5%;
+  margin-left: 3.5%;
+  
+
 }
 .learning-second-img {
   width: 30%;
@@ -53,7 +55,7 @@
   color: white;
   font-size: 0.7rem;
   margin-top: 10%;
-  left: 18.5%;
+  margin-left: 19%;
 }
 .learning-second-img-container {
   display: flex;
@@ -73,7 +75,7 @@
   color: white;
   font-size: 0.7rem;
   margin-top: 10%;
-  left: 1%;
+  margin-left: 1%;
 }
 .learning-fourth-img {
   width: 45%;
@@ -87,7 +89,7 @@
   color: white;
   font-size: 0.7rem;
   margin-top: 10%;
-  left: 16%;
+  margin-left: 16%;
 }
 .learning-third-img-container {
   display: flex;
@@ -107,7 +109,7 @@
   color: white;
   font-size: 0.7rem;
   margin-top: 10%;
-  left: 3%;
+  margin-left: 3%;
 }
 .learning-sixth-img {
   width: 30%;
@@ -121,7 +123,7 @@
   color: white;
   font-size: 0.7rem;
   margin-top: 10%;
-  left: 20%;
+  margin-left: 20%;
 }
 .learning-fourth-img-container {
   display: flex;
