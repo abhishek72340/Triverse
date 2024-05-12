@@ -1,0 +1,134 @@
+.cloud {
+  width: 100%;
+  margin-top: 10%;
+  position: relative;
+}
+.logo-two-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-two {
+  width: 13%;
+  position: absolute;
+  z-index: 1;
+  margin-top: 40%;
+  margin-left: -8%;
+}
+.footer-text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-text {
+  z-index: 1;
+  display: flex;
+  justify-content: space-center;
+  font-size: 11px;
+  line-height: 1.7;
+  font-family: sans-serif;
+  position: absolute;
+  gap: 5rem;
+  margin-top: 75%;
+  margin-left: -10%;
+}
+.footer-text b {
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+
+.footer-input-container {
+  display: flex;
+  justify-content: center;
+  align-items: centers;
+}
+.footer-input {
+  position: absolute;
+  width: 60%;
+  padding: 13px;
+  font-size: 10px;
+  font-family: sans-serif;
+  margin-top: 45%;
+  outline: none;
+  background-color: gainsboro;
+  border: gainsboro;
+  border-radius: 5px;
+  z-index: 1;
+}
+
+.footer-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-btn button {
+  position: absolute;
+  padding: 14px;
+  border-radius: 25px;
+  width: 12%;
+  background-color: rgb(255 204 42);
+  border: rgb(255 204 42);
+  color: #000;
+  margin-top: 105%;
+  z-index: 1;
+  cursor: pointer;
+}
+.footer-btn button:hover {
+  background-color: #000;
+  color: rgb(255 204 42);
+}
+
+.footer-circle-container {
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+  position: absolute;
+  margin-top: 60%;
+  z-index: 1;
+  margin-left: 25%;
+}
+.footer-circle {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  font-family: monospace;
+}
+.footer-circle-container div:nth-child(1) {
+  background-color: rgb(89 197 207);
+}
+.footer-circle-container div:nth-child(2) {
+  background-color: rgb(234 84 111);
+}
+.footer-circle-container div:nth-child(3) {
+  background-color: rgb(123 198 93);
+}
+
+.contact {
+  display: flex;
+  position: absolute;
+  gap: 3rem;
+  font-family: sans-serif;
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+  margin-top: 69%;
+  margin-left: 21%;
+  z-index: 1;
+}
+.footer-thread-six {
+  width: 8%;
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  margin-top: 44%;
+}
+.footer-thread-seventh {
+  width: 20%;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  margin-top: 65%;
+}

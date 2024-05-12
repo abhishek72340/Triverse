@@ -6,6 +6,7 @@ import BlossomingSection from "./../../Components/BlossomingSection/BlossomingSe
 import ProgramSection from "./../../Components/ProgramSection/ProgramSection";
 import LearningSection from "./../../Components/LearningSection/LearningSection";
 import RegistrationSection from "./../../Components/RegistrationSection/RegistrationSection";
+import FooterSection from "../../Components/FooterSection/FooterSection";
 const Home = () => {
   return (
     <>
@@ -17,6 +18,7 @@ const Home = () => {
       <ProgramSection />
       <LearningSection />
       <RegistrationSection />
+      <FooterSection />
     </>
   );
 };
