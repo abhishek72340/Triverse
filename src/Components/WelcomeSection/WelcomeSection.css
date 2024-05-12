@@ -1,7 +1,7 @@
 .welcome-heading {
-  margin-top: 14%;
+  margin-top: 15%;
   text-align: center;
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   text-transform: uppercase;
   letter-spacing: 1px;
   z-index: 1;
@@ -15,6 +15,7 @@
   margin: auto;
   margin-top: -4.2rem;
 }
+
 
 .text-aside-container {
   display: flex;
@@ -79,7 +80,9 @@
     font-size: 1.2rem;
   }
   .welcome-bubble {
-    margin-top: -2rem;
+    margin-top: -7%;
+    width: 50px;
+    height: 60px;
   }
   .text {
     font-size: 1rem;
@@ -93,7 +96,9 @@
 }
 @media screen and (min-width: 481px) and (max-width: 769px) {
   .welcome-bubble {
-    margin-top: -3rem;
+    margin-top: -7%;
+    width: 60px;
+    height: 70px;
   }
 }
 
@@ -118,5 +123,9 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
+  }
+  .read-more-btn-container{
+    display: flex;
+    justify-content: center
   }
 }

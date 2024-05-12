@@ -117,7 +117,17 @@
   color: gray;
 }
 
+@media screen and (max-width: 480px) {
+  .registration-heading {
+    font-size: 1.2rem;
+  }
+}
 @media only screen and (max-width: 768px) {
+  .registration-bubble {
+    margin-top: -7%;
+    width: 60px;
+    height: 70px;
+  }
   .registration-group-btn {
     display: flex;
     justify-content: center;
@@ -143,14 +153,21 @@
     height: 2rem;
     padding: 10px;
     gap: 0.5rem;
+    font-size: 1.2rem;
   }
 
   .work p {
     flex-direction: column;
     gap: 0.5rem;
+    font-size: 1.2rem;
+
   }
 
   .orientation-btn-container {
     gap: 1rem;
+  }
+  .orientation-btn-container p {
+    font-size: 0.9rem;
+
   }
 }

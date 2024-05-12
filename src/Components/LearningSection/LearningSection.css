@@ -37,7 +37,7 @@
   position: absolute;
   font-family: sans-serif;
   color: white;
-  font-size: 12px;
+  font-size: 0.7rem;
   margin-top: 10%;
   left: 3.5%;
 }
@@ -51,7 +51,7 @@
   position: absolute;
   font-family: sans-serif;
   color: white;
-  font-size: 12px;
+  font-size: 0.7rem;
   margin-top: 10%;
   left: 18.5%;
 }
@@ -71,7 +71,7 @@
   position: absolute;
   font-family: sans-serif;
   color: white;
-  font-size: 12px;
+  font-size: 0.7rem;
   margin-top: 10%;
   left: 1%;
 }
@@ -85,7 +85,7 @@
   position: absolute;
   font-family: sans-serif;
   color: white;
-  font-size: 12px;
+  font-size: 0.7rem;
   margin-top: 10%;
   left: 16%;
 }
@@ -105,7 +105,7 @@
   position: absolute;
   font-family: sans-serif;
   color: white;
-  font-size: 12px;
+  font-size: 0.7rem;
   margin-top: 10%;
   left: 3%;
 }
@@ -119,7 +119,7 @@
   position: absolute;
   font-family: sans-serif;
   color: white;
-  font-size: 12px;
+  font-size: 0.7rem;
   margin-top: 10%;
   left: 20%;
 }
@@ -181,17 +181,36 @@
   html {
     font-size: 8px;
   }
+  .learning-heading{
+    font-size: 1.2rem;
+  }
   .image-circle {
     font-size: 3px;
+  }
+  .learning-bubble {
+    margin-top: -10%;
+    width: 50px;
+    height: 60px;
   }
 }
 @media screen and (min-width: 481px) and (max-width: 769px) {
   .image-circle {
     font-size: 5px;
   }
+  html{
+    font-size: 8px;
+  }
+  .learning-bubble {
+    margin-top: -7%;
+    width: 60px;
+    height: 70px;
+  }
 }
 @media screen and (min-width: 760px) and (max-width: 1024px) {
   .image-circle {
     font-size: 8px;
+  }
+  html{
+    font-size: 12px;
   }
 }

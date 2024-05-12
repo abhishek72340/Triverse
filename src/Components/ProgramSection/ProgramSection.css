@@ -39,7 +39,7 @@
   position: relative;
 }
 .play-heading {
-  font-size: 2rem;
+  font-size: 1.7rem;
   text-align: center;
   margin-top: 10%;
   text-transform: uppercase;
@@ -111,6 +111,37 @@
   margin-top: 8%;
   left: 0;
   position: absolute;
+}
+
+@media screen and (max-width: 480px) {
+  .program-heading {
+    font-size: 1.2rem;
+  }
+  .play-heading {
+    font-size: 1.2rem;
+  }
+  .program-bubble {
+    margin-top: -10%;
+    width: 50px;
+    height: 60px;
+  }
+  .play-bubble {
+    margin-top: -10%;
+    width: 50px;
+    height: 60px;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 769px) {
+  .program-bubble {
+    margin-top: -7%;
+    width: 60px;
+    height: 70px;
+  }
+  .play-bubble {
+    margin-top: -10%;
+    width: 60px;
+    height: 70px;
+  }
 }
 
 @media screen and (max-width: 1200px) {

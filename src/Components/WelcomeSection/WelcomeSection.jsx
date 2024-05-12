@@ -54,7 +54,9 @@ const WelcomeSection = () => {
           <div className="bottom-line"></div>
         </div>
       </div>
-      <button className="read-more-btn">Read More</button>
+      <div className="read-more-btn-container">
+        <button className="read-more-btn">Read More</button>
+      </div>
     </>
   );
 };

@@ -220,12 +220,12 @@
 
   .footer-green-bubble {
     right: 13%;
-    top: 25%;
+    margin-top: 25%;
   }
 
   .footer-red-bubble {
     left: 13%;
-    top: 15%;
+    margin-top: 15%;
   }
 }
 
@@ -277,11 +277,11 @@
 
   .footer-green-bubble {
     right: 15%;
-    top: 35%;
+    margin-top: 35%;
   }
 
   .footer-red-bubble {
     left: 15%;
-    top: 20%;
+    margin-top: 20%;
   }
 }
