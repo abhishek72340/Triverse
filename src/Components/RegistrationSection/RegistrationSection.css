@@ -1,0 +1,158 @@
+.registration-heading {
+  text-align: center;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  margin-top: 10%;
+}
+.registration-bubble {
+  border-radius: 77% 23% 46% 56% / 72% 20% 79% 29%;
+  height: 90px;
+  width: 80px;
+  background-color: rgb(86 197 208);
+  margin: auto;
+  margin-top: -4.2rem;
+}
+.registration-group-btn {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3%;
+  font-size: 1rem;
+}
+.registration-group-btn button:nth-child(1) {
+  background-color: rgb(234 84 111);
+  border: rgb(234 84 111);
+  color: #000;
+  width: 30%;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+}
+.registration-group-btn button:nth-child(2) {
+  background-color: rgb(234 84 111);
+  border: rgb(234 84 111);
+  color: #000;
+  width: 30%;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+}
+.registration-time-container {
+  display: flex;
+  justify-content: space-around;
+  font-family: sans-serif;
+  font-size: 0.7rem;
+  margin-top: 5%;
+  word-spacing: 1px;
+}
+.class {
+  display: flex;
+  justify-content: space-between;
+  gap: 15rem;
+  height: 1.5rem;
+  padding: 0 1.5rem 0 0;
+}
+.class span:nth-child(1) {
+  font-weight: 600;
+}
+.work {
+  display: flex;
+  flex-direction: column;
+  padding: 0 2rem 0 0;
+
+}
+.work p {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.work p b {
+  font-size: 1.4rem;
+  color: gray;
+}
+.work p p:nth-child(2) {
+  font-weight: 600;
+}
+
+.dotted-line {
+  width: 100%;
+  border: 2px;
+  margin: 0 0 3px 0;
+
+  border-bottom: 1px dashed gray;
+}
+
+.orientation-btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+.orientation-btn {
+  margin-top: 5%;
+  background-color: rgb(234 84 111);
+  border: rgb(234 84 111);
+  color: #000;
+  width: 30%;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+}
+.orientation-btn-container p {
+  font-size: 0.7rem;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.orientation-btn-container p {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.orientation-btn-container p b {
+  font-size: 1.4rem;
+  color: gray;
+}
+
+@media only screen and (max-width: 768px) {
+  .registration-group-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
+  }
+  .registration-group-btn {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .registration-group-btn button {
+    width: 100%;
+  }
+
+  .registration-time-container {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .class {
+    height: 2rem;
+    padding: 10px;
+    gap: 0.5rem;
+  }
+
+  .work p {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .orientation-btn-container {
+    gap: 1rem;
+  }
+}

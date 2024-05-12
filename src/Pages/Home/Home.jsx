@@ -5,6 +5,7 @@ import CalculationSection from "./../../Components/CalculationSection/Calculatio
 import BlossomingSection from "./../../Components/BlossomingSection/BlossomingSection";
 import ProgramSection from "./../../Components/ProgramSection/ProgramSection";
 import LearningSection from "./../../Components/LearningSection/LearningSection";
+import RegistrationSection from "./../../Components/RegistrationSection/RegistrationSection";
 const Home = () => {
   return (
     <>
@@ -15,6 +16,7 @@ const Home = () => {
       <BlossomingSection />
       <ProgramSection />
       <LearningSection />
+      <RegistrationSection />
     </>
   );
 };
