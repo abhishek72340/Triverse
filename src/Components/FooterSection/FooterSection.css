@@ -132,3 +132,156 @@
   left: 0;
   margin-top: 65%;
 }
+
+.footer-blue-bubble {
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  background-color: rgb(89 197 207);
+  position: absolute;
+  z-index: 1;
+  margin-top: 20.5%;
+  left: 17%;
+}
+.footer-green-bubble {
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  background-color: rgb(123 198 93);
+  position: absolute;
+  margin-top: 10%;
+  z-index: 1;
+  position: absolute;
+  right: 11.5%;
+  margin-top: 22.8%;
+}
+.footer-red-bubble {
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  background-color: rgb(234 84 111);
+  position: absolute;
+  z-index: 1;
+  margin-top: 12%;
+  margin-left: 15%;
+}
+.red-bubble-container {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .logo-two {
+    width: 20%;
+    left: 3%;
+  }
+
+  .footer-text {
+    font-size: 10px;
+    margin-top: 80%;
+    flex-direction: row; /* Changed from column */
+    align-items: center; /* Added */
+    left: 3%;
+  }
+
+  .footer-input {
+    width: 70%;
+    margin-top: 50%;
+    left: 15%;
+  }
+
+  .footer-btn button {
+    width: 12%;
+    margin-top: 105%;
+    left: 78%;
+  }
+
+  .footer-circle-container {
+    gap: 8rem;
+    margin-top: 70%;
+  }
+
+  .contact {
+    font-size: 0.6rem;
+    margin-top: 74%;
+  }
+
+  .footer-thread-six {
+    margin-top: 40%;
+  }
+
+  .footer-thread-seventh {
+    margin-top: 65%;
+  }
+
+  .footer-blue-bubble {
+    margin-top: 22.5%;
+  }
+
+  .footer-green-bubble {
+    right: 13%;
+    top: 25%;
+  }
+
+  .footer-red-bubble {
+    left: 13%;
+    top: 15%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .logo-two {
+    width: 30%;
+    left: 0;
+  }
+
+  .footer-text {
+    font-size: 8px;
+    margin-top: 85%;
+    left: 0;
+  }
+
+  .footer-input {
+    width: 80%;
+    margin-top: 60%;
+    left: 10%;
+  }
+
+  .footer-btn button {
+    width: 15%;
+    margin-top: 110%;
+    left: 72%;
+  }
+
+  .footer-circle-container {
+    gap: 6rem;
+    margin-top: 85%;
+  }
+
+  .contact {
+    font-size: 0.5rem;
+    margin-top: 85%;
+  }
+
+  .footer-thread-six {
+    margin-top: 45%;
+  }
+
+  .footer-thread-seventh {
+    margin-top: 70%;
+  }
+
+  .footer-blue-bubble {
+    margin-top: 30.5%;
+  }
+
+  .footer-green-bubble {
+    right: 15%;
+    top: 35%;
+  }
+
+  .footer-red-bubble {
+    left: 15%;
+    top: 20%;
+  }
+}

@@ -99,6 +99,11 @@ const FooterSection = () => {
           alt="thread6"
           className="footer-thread-seventh"
         />
+        <div className="footer-blue-bubble"></div>
+        <div className="red-bubble-container">
+          <div className="footer-red-bubble"></div>
+        </div>
+        <div className="footer-green-bubble"></div>
         <img src="/images/cloud.png" alt="cloud" className="cloud" />
       </div>
     </>

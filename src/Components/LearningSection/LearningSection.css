@@ -31,11 +31,29 @@
   width: 30%;
   height: 80%;
   border-radius: 20px;
+  filter: brightness(0.8);
+}
+.activity-room {
+  position: absolute;
+  font-family: sans-serif;
+  color: white;
+  font-size: 12px;
+  margin-top: 10%;
+  left: 3.5%;
 }
 .learning-second-img {
   width: 30%;
   height: 80%;
   border-radius: 20px;
+  filter: brightness(0.8);
+}
+.outdoor-play-area {
+  position: absolute;
+  font-family: sans-serif;
+  color: white;
+  font-size: 12px;
+  margin-top: 10%;
+  left: 18.5%;
 }
 .learning-second-img-container {
   display: flex;
@@ -47,11 +65,29 @@
   width: 16%;
   height: 75%;
   border-radius: 20px;
+  filter: brightness(0.8);
+}
+.pretend-play-system {
+  position: absolute;
+  font-family: sans-serif;
+  color: white;
+  font-size: 12px;
+  margin-top: 10%;
+  left: 1%;
 }
 .learning-fourth-img {
   width: 45%;
   height: 75%;
   border-radius: 20px;
+  filter: brightness(0.8);
+}
+.library-room {
+  position: absolute;
+  font-family: sans-serif;
+  color: white;
+  font-size: 12px;
+  margin-top: 10%;
+  left: 16%;
 }
 .learning-third-img-container {
   display: flex;
@@ -63,11 +99,29 @@
   width: 30%;
   height: 80%;
   border-radius: 20px;
+  filter: brightness(0.8);
+}
+.dance-room {
+  position: absolute;
+  font-family: sans-serif;
+  color: white;
+  font-size: 12px;
+  margin-top: 10%;
+  left: 3%;
 }
 .learning-sixth-img {
   width: 30%;
   height: 80%;
   border-radius: 20px;
+  filter: brightness(0.8);
+}
+.art-craft {
+  position: absolute;
+  font-family: sans-serif;
+  color: white;
+  font-size: 12px;
+  margin-top: 10%;
+  left: 20%;
 }
 .learning-fourth-img-container {
   display: flex;

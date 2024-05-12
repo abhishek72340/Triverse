@@ -19,11 +19,14 @@ const LearningSection = () => {
                 alt="img"
                 className="learning-first-img"
               />
+              <p className="activity-room">ACTIVITY ROOM</p>
+
               <img
                 src="/images/learning2.png"
                 alt="img"
                 className="learning-second-img"
               />
+              <p className="outdoor-play-area">OUTDOOR PLAY AREA</p>
             </div>
             <div className="learning-second-img-container">
               <img
@@ -31,11 +34,16 @@ const LearningSection = () => {
                 alt="img"
                 className="learning-third-img"
               />
+              <p className="pretend-play-system">
+                PRETEND &<br /> PLAY SYSTEM
+              </p>
+
               <img
                 src="/images/learning4.png"
                 alt="img"
                 className="learning-fourth-img"
               />
+              <p className="library-room">LIBRARY ROOM</p>
             </div>
             <div className="learning-third-img-container">
               <img
@@ -43,11 +51,14 @@ const LearningSection = () => {
                 alt="img"
                 className="learning-fifth-img"
               />
+              <p className="dance-room">AV & DANCE ROOM</p>
+
               <img
                 src="/images/learning6.png"
                 alt="img"
                 className="learning-sixth-img"
               />
+              <p className="art-craft">ART & CRAFT</p>
             </div>
           </div>
           <div className="learning-img-second-container">
