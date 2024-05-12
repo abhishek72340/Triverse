@@ -227,7 +227,7 @@
     margin-top: 11%;
   }
 }
-@media screen and (max-width:480px){
+@media screen and (max-width: 480px) {
   .footer-circle-container {
     display: none;
   }
@@ -257,7 +257,6 @@
     margin-top: 92%;
     left: 45%;
     display: none;
-
   }
 
   .footer-circle-container {
@@ -280,4 +279,3 @@
     margin-top: 65%;
   }
 }
-
